@@ -40,7 +40,7 @@ export function Hero() {
             roles
           </span>
           <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.05] sm:text-5xl md:text-6xl">
-            Hi, I'm <span className="text-gradient">Prisha</span> ✨
+            Hi, I'm <span className="text-gradient">Prisha Kerin Mercy D</span> ✨
           </h1>
           <p className="mt-4 text-xl font-semibold text-foreground/80 md:text-2xl">
             <TaglineRotator />

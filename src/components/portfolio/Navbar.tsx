@@ -32,9 +32,9 @@ export function Navbar() {
           scrolled ? "glass shadow-soft" : "bg-transparent"
         }`}
       >
-        <a href="#top" className="flex items-center gap-2 font-display text-lg font-extrabold">
+          <a href="#top" className="flex items-center gap-2 font-display text-lg font-extrabold">
           <Sparkles className="h-5 w-5 text-primary" />
-          <span className="text-gradient">Prisha</span>
+          <span className="text-gradient">Prisha Kerin Mercy D</span>
         </a>
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => (
