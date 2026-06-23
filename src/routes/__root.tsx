@@ -77,19 +77,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Prisha Kerin Mercy D | AI & Technical Support Engineer" },
+      {
+        name: "description",
+        content:
+          "Prisha Kerin Mercy D — Aspiring UI/UX & Front-end developer, RPA explorer and AI prompting specialist ready for technical support and IT communication roles.",
+      },
+      { name: "author", content: "Prisha Kerin Mercy D" },
+      { property: "og:title", content: "Prisha Kerin Mercy D | AI & Technical Support Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Animated portfolio of Prisha Kerin Mercy D — AI-driven web applications, RPA (UiPath), UI/UX and technical support.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap",
       },
     ],
   }),
