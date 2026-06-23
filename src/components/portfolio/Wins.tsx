@@ -8,7 +8,11 @@ export function Wins() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Achievements & Certifications"
-          title={<>Proud little <span className="text-gradient">wins</span> 🏆</>}
+          title={
+            <>
+              Proud little <span className="text-gradient">wins</span> 🏆
+            </>
+          }
         />
         <div className="grid gap-8 lg:grid-cols-2">
           <div>

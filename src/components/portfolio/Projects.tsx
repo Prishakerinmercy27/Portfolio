@@ -7,7 +7,11 @@ export function Projects() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Projects"
-          title={<>Things I've <span className="text-gradient">built</span></>}
+          title={
+            <>
+              Things I've <span className="text-gradient">built</span>
+            </>
+          }
         />
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((p, i) => (
@@ -22,7 +26,10 @@ export function Projects() {
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {p.stack.map((s) => (
-                    <span key={s} className="rounded-full border border-border px-2.5 py-1 text-xs font-medium text-foreground/70">
+                    <span
+                      key={s}
+                      className="rounded-full border border-border px-2.5 py-1 text-xs font-medium text-foreground/70"
+                    >
                       {s}
                     </span>
                   ))}

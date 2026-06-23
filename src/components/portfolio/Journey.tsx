@@ -8,7 +8,11 @@ export function Journey() {
       <div className="mx-auto max-w-4xl">
         <SectionHeading
           eyebrow="Experience & Education"
-          title={<>My <span className="text-gradient">journey</span> so far</>}
+          title={
+            <>
+              My <span className="text-gradient">journey</span> so far
+            </>
+          }
         />
         <div className="relative space-y-6 before:absolute before:left-4 before:top-2 before:h-full before:w-0.5 before:bg-gradient-primary md:before:left-1/2">
           {timeline.map((item, i) => {
@@ -16,7 +20,9 @@ export function Journey() {
             const left = i % 2 === 0;
             return (
               <Reveal key={item.title} delay={i * 0.05}>
-                <div className={`relative flex md:w-1/2 ${left ? "md:pr-8" : "md:ml-auto md:pl-8"}`}>
+                <div
+                  className={`relative flex md:w-1/2 ${left ? "md:pr-8" : "md:ml-auto md:pl-8"}`}
+                >
                   <span
                     className={`absolute left-4 top-5 z-10 -translate-x-1/2 ${
                       left ? "md:left-full" : "md:left-0"

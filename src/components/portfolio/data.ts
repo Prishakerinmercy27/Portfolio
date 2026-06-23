@@ -25,7 +25,12 @@ export const profile = {
 
 export const contactLinks = [
   { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-  { icon: Phone, label: "Phone", value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, "")}` },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: profile.phone,
+    href: `tel:${profile.phone.replace(/\s/g, "")}`,
+  },
   { icon: Linkedin, label: "LinkedIn", value: "prishakerinmercy27", href: profile.linkedin },
   { icon: Github, label: "GitHub", value: "Prishakerinmercy27", href: profile.github },
 ];
@@ -124,5 +129,8 @@ export const achievements = [
   { title: "UiPath AgentHack India 2025", detail: "Top 10 Finalist · Student Edition, Bengaluru" },
   { title: "HackAthena'25", detail: "Top 15 Finalist · National Hackathon, Kerala" },
   { title: "Hack Hustle'24", detail: "Finalist · Saveetha Engineering College, Chennai" },
-  { title: "MyGov Campus Ambassador", detail: "Government of India initiative for civic engagement" },
+  {
+    title: "MyGov Campus Ambassador",
+    detail: "Government of India initiative for civic engagement",
+  },
 ];

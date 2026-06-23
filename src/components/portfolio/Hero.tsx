@@ -36,7 +36,8 @@ export function Hero() {
           transition={{ duration: 0.7 }}
         >
           <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-sm font-medium text-primary shadow-soft">
-            <Sparkles className="h-4 w-4 animate-sparkle" /> Available for IT & Technical Support roles
+            <Sparkles className="h-4 w-4 animate-sparkle" /> Available for IT & Technical Support
+            roles
           </span>
           <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.05] sm:text-5xl md:text-6xl">
             Hi, I'm <span className="text-gradient">Prisha</span> ✨

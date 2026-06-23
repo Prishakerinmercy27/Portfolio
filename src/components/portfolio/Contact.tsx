@@ -8,7 +8,11 @@ export function Contact() {
       <div className="mx-auto max-w-4xl">
         <SectionHeading
           eyebrow="Contact"
-          title={<>Let's build something <span className="text-gradient">together</span></>}
+          title={
+            <>
+              Let's build something <span className="text-gradient">together</span>
+            </>
+          }
         />
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}
@@ -20,7 +24,8 @@ export function Contact() {
           <div className="absolute -left-10 -top-10 h-40 w-40 rounded-full bg-pink-glow/40 blur-3xl" />
           <p className="relative mx-auto max-w-xl text-lg font-medium text-primary-foreground">
             I'm actively looking for <strong>Technical Support Engineer</strong> & IT communication
-            roles where I can blend AI, automation and a friendly, problem-solving mindset. Let's chat! ♥
+            roles where I can blend AI, automation and a friendly, problem-solving mindset. Let's
+            chat! ♥
           </p>
           <div className="relative mt-8 grid gap-3 sm:grid-cols-2">
             {contactLinks.map((c) => (

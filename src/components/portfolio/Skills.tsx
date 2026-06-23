@@ -7,7 +7,11 @@ export function Skills() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="Toolkit"
-          title={<>Skills that make me <span className="text-gradient">job-ready</span></>}
+          title={
+            <>
+              Skills that make me <span className="text-gradient">job-ready</span>
+            </>
+          }
         />
         <div className="grid gap-5 md:grid-cols-2">
           {skillGroups.map((g, i) => (

@@ -28,7 +28,14 @@ export function About() {
   return (
     <section id="about" className="px-4 py-20">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="About me" title={<>A little about <span className="text-gradient">me</span></>} />
+        <SectionHeading
+          eyebrow="About me"
+          title={
+            <>
+              A little about <span className="text-gradient">me</span>
+            </>
+          }
+        />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {highlights.map((h, i) => (
             <Reveal key={h.title} delay={i * 0.08}>
