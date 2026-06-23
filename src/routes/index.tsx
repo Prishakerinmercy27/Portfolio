@@ -1,29 +1,49 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Background } from "@/components/portfolio/Background";
+import { Navbar } from "@/components/portfolio/Navbar";
+import { Hero } from "@/components/portfolio/Hero";
+import { Marquee } from "@/components/portfolio/Marquee";
+import { About } from "@/components/portfolio/About";
+import { Skills } from "@/components/portfolio/Skills";
+import { Journey } from "@/components/portfolio/Journey";
+import { Projects } from "@/components/portfolio/Projects";
+import { Wins } from "@/components/portfolio/Wins";
+import { Contact } from "@/components/portfolio/Contact";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Prisha Kerin Mercy D | AI & Technical Support Engineer" },
+      {
+        name: "description",
+        content:
+          "Animated portfolio of Prisha Kerin Mercy D — AI prompting specialist, Ui/UX & front-end developer and UiPath RPA explorer seeking technical support and IT communication roles.",
+      },
+      { property: "og:title", content: "Prisha Kerin Mercy D | AI & Technical Support Engineer" },
+      {
+        property: "og:description",
+        content: "AI-driven web apps, RPA automation, UI/UX and technical support — see my work.",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="relative min-h-screen overflow-x-hidden">
+      <Background />
+      <Navbar />
+      <main>
+        <Hero />
+        <Marquee />
+        <About />
+        <Skills />
+        <Journey />
+        <Projects />
+        <Wins />
+        <Contact />
+      </main>
     </div>
   );
 }

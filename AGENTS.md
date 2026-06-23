@@ -1,10 +1,8 @@
-<!-- LOVABLE:BEGIN -->
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-<!-- LOVABLE:END -->
+# Prisha Kerin Mercy D - Portfolio
+
+Animated personal portfolio website for Prisha Kerin Mercy D — AI Prompting Specialist, UI/UX & Front-End Developer, and UiPath RPA Explorer.
+
+## Technology Stack
+- **Framework**: TanStack Start (React + Vite + TypeScript)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
