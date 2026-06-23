@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, MapPin } from "lucide-react";
-import prisha from "@/assets/prisha.jpeg.asset.json";
+import prisha from "@/assets/prisha-photo.jpeg";
 import { profile, stats } from "./data";
 
 function TaglineRotator() {
@@ -77,9 +77,9 @@ export function Hero() {
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-primary opacity-70 blur-2xl" />
             <div className="relative overflow-hidden rounded-[2rem] border-4 border-card shadow-glow">
               <img
-                src={prisha.url}
+                src={prisha}
                 alt="Portrait of Prisha Kerin Mercy D"
-                className="aspect-[4/5] w-full object-cover"
+                className="aspect-[4/5] w-full object-cover object-top"
               />
             </div>
             <motion.div
